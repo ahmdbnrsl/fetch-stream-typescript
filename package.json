@@ -1,0 +1,25 @@
+{
+    "name": "fetch-stream",
+    "version": "1.0.0",
+    "description": "a simple fetch stream using typescript",
+    "main": "src/index.ts",
+    "scripts": {
+        "start": "eslint src/ && nodemon",
+        "lint": "eslint src/",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ahmad Beni Rusli",
+    "license": "ISC",
+    "type": "module",
+    "devDependencies": {
+        "@eslint/js": "^9.21.0",
+        "eslint": "^9.21.0",
+        "nodemon": "^3.1.9",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.3",
+        "typescript-eslint": "^8.24.1"
+    },
+    "dependencies": {
+        "node-fetch": "^3.3.2"
+    }
+}
